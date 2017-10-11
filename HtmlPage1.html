@@ -3,17 +3,21 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="سامانه یکپارچه فرهنگی مهر">
-        <link href="content/bootstrap.min.css" rel="stylesheet" />
-        <link href="content/bootstrap.rtl.min.css" rel="stylesheet" />
-        <link rel="shortcut icon" href="http://mehr.urmia.ac.ir">
-        <link rel="stylesheet" href="http://mehr.urmia.ac.ir/assets/css/_base.css">
-        <link rel="stylesheet" type="text/css" href="http://mehr.urmia.ac.ir/views/page/program/program.css">
+
+        <link href="Content/bootstrap.min.css" rel="stylesheet" />
+
+        <link href="Content/css/bootstrap-rtl.css" rel="stylesheet" />
+
         <title>
             سامانه مهر:
             سلسله همایشهای بزرگ دانشجویی با...
 
         </title>
         <style>
+            nav{
+                background-color:darkgreen;
+                   
+            }
           
             body {
                 background-color:white;
@@ -37,41 +41,29 @@
     </head>
     <body>
         <header>
-            <nav class=" topBar" >
-                <style> color-profile{color:darkred;}</style>
-                <div class="topBar">
-                    <div class="tobBar-breadcrumb">
-                        <a title="خروج از سامانه مهر" data-placement="bottom" class="icons" href="http://www.urmia.ac.ir/">
-                            » دانشگاه ارومیه
-                        </a>
-                        <a title="آغازه سامانه مهر" data-placement="bottom" class="icons" href="http://mehr.urmia.ac.ir">
-                            » معاونت فرهنگی و اجتماعی
-                        </a>
-                        <a data-placement="bottom" class="icons" href="http://mehr.urmia.ac.ir/entity/88">
-                            تشکل اسلامی جامعه اسلامی دانشجویان
-                        </a>
-                    </div>
+           
+            <div>
+                <nav class="navbar nav">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li>
+                                <a href="http://mehr.urmia.ac.ir/feed">
+                                    <span class="glyphicon glyphicon-menu-hamburger" data-placement="bottom" title="خوراک RSS/Atom"></span>
+                                </a>
+                            </li>
+                            <li><a href="http://mehr.urmia.ac.ir/signup">ورود <span class="glyphicon glyphicon-user"></span></a></li>
+                            <li><a href="http://mehr.urmia.ac.ir/login">ثبت نام <span class="glyphicon glyphicon-log-in"></span></a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right" > 
 
-                    <div class="tobBar-profileLinks">
-                        <div>
-                            <span>(مهمان)</span>
-                        </div>
-                        <a title="" href="http://mehr.urmia.ac.ir/signup">
-                            <i class="fa fa-user-plus"></i>
-                            نام‌نویسی
-                        </a>
-                        <a href="http://mehr.urmia.ac.ir/login">
-                            <i class="fa fa-key"></i>
-                            ورود
-                        </a>
-                        <div>
-                            <a href="http://mehr.urmia.ac.ir/feed">
-                                <i color="green" class="fa fa-rss" data-placement="bottom" title="خوراک RSS/Atom"></i>
-                            </a>
-                        </div>
+                            <li><a data-placement="bottom" class="icons" href="http://mehr.urmia.ac.ir/entity/180">  دانشگاه ارومیه </a></li>
+                            <li><a data-placement="bottom" class="icons" href="http://mehr.urmia.ac.ir/entity/173">معاونت فرهنگی و اجتماعی </a></li>
+                            <li><a title="آغازه سامانه مهر" data-placement="bottom" class="icons" href="http://mehr.urmia.ac.ir">  معاونت فرهنگی و اجتماعی </a></li>
+                            <li><a title="خروج از سامانه مهر" data-placement="bottom" class="icons" href="http://www.urmia.ac.ir/">واحد بسیج دانشجویی </a></li>
+                        </ul>
                     </div>
-                </div>
                 </nav>
+            </div>
                 <div class="busy-box hidden">
                     <i class="fa fa-spinner fa-pulse"></i>
                     <span>در حال پردازش ...</span>
@@ -196,9 +188,9 @@
                 </div>
             </footer>
             </div> 
-          
-        <script src="Scripts/jquery-3.2.1.min.js"> </script>
+        <script src="Scripts/jquery-3.2.1.min.js"></script>
         <script src="Scripts/bootstrap.min.js"></script>
-        <script src="Scripts/bootstrap.rtl.min.js"></script>
+
+     
     </body>
     </html>
